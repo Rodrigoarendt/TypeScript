@@ -1,0 +1,10 @@
+npx typscript --init - para instalar 
+
+tsconfig.json = descomenta a linha 52 e passa a pasta criada 
+para salvar 
+
+Após alteração executar o comando NPX TSC 
+para atualizar o arquivo JS
+
+
+node .\ a pasta para executar o arquivo js
