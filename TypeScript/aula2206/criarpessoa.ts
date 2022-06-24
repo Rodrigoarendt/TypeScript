@@ -7,3 +7,12 @@ jose.imprimeDados()
 var maria = new Pessoa(2,'maria', 345 ,'maria@gmail.com',48,1.80)
 maria.imprimeDados()
 
+let pessoas: Pessoa[]=[]
+pessoas.push(jose)
+pessoas.push(maria)
+
+
+pessoas.forEach((p) => { p.imprimeDados()
+
+});
+

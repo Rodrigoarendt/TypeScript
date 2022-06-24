@@ -7,7 +7,7 @@ class Pessoa {
     altura: number
 
 
-    constructor(id:number,nome: string, fone: number, email: string, peso:number, altura:number) {
+    constructor(id:number, nome:string, fone:number, email:string, peso:number, altura:number) {
         this.id = id
         this.nome = nome
         this.fone = fone
@@ -28,9 +28,6 @@ class Pessoa {
         console.log(`Email: ${this.email}`)
         console.log(`Peso: ${this.peso}`)
         console.log(`altura: ${this.altura}`)
-
-        
-
     }
 
 }

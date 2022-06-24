@@ -8,3 +8,9 @@ var jose = new pessoanova_1.default(1, 'Jose da silva', 123, 'jose@gmail.com', 4
 jose.imprimeDados();
 var maria = new pessoanova_1.default(2, 'maria', 345, 'maria@gmail.com', 48, 1.80);
 maria.imprimeDados();
+let pessoas = [];
+pessoas.push(jose);
+pessoas.push(maria);
+pessoas.forEach((p) => {
+    p.imprimeDados();
+});
